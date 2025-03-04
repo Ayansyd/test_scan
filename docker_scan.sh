@@ -2,7 +2,7 @@
 # This script pulls the Ubuntu latest image with debugging.
  
 IMAGE1="ubuntu:latest"
-IMAGE2="ayandocker277/docker-scan:latest"
+IMAGE2="ayandocker277/docker-scan"
 echo "Attempting to pull the image: ${IMAGE}"
  
 if docker pull "${IMAGE1}"; then
