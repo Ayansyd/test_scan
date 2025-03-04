@@ -3,7 +3,7 @@
  
 IMAGE1="ubuntu:latest"
 IMAGE2="ayandocker277/docker-scan"
-echo "Attempting to pull the image: ${IMAGE}"
+echo "Attempting to pull the image"
  
 if docker pull "${IMAGE1}"; then
     echo "Image pulled successfully."
