@@ -8,13 +8,13 @@ echo "Attempting to pull the image: ${IMAGE}"
 if docker pull "${IMAGE1}"; then
     echo "Image pulled successfully."
 else
-    echo "Error: Failed to pull the image: ${IMAGE}" >&2
+    echo "Error: Failed to pull the image: ${IMAGE1}" >&2
     exit 1
 fi
 
 if docker pull "${IMAGE2}"; then
     echo "Image pulled successfully."
 else
-    echo "Error: Failed to pull the image: ${IMAGE}" >&2
+    echo "Error: Failed to pull the image: ${IMAGE2}" >&2
     exit 1
 fi
